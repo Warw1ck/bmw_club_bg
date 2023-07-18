@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'bmw_club_bg.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "bmw_club_bg",
-        "USER": "warwick",
-        "PASSWORD": "tigrite",
+        "NAME": "data_base_name",
+        "USER": "username",
+        "PASSWORD": "password",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
